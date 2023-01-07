@@ -1,7 +1,5 @@
-# Generating Emails with GPT3
-
-[![](https://img.youtube.com/vi/oJWBQKrF4uM/0.jpg)](https://www.youtube.com/watch?v=oJWBQKrF4uM)
-
+# Generating Emails using GPT3 Language model
+I have created a web application that generates professional emails and then sends them via Gmail. The user interacts with a frontend made with Streamlit
 _____
 ## How to run this on your local computer:
 * Sign up for an [OpenAI account](https://beta.openai.com/signup) and put your private key in **ml_backend.py**
