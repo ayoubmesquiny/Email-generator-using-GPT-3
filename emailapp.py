@@ -1,6 +1,6 @@
 import streamlit as st
 import openai
-from ml_backend import ml_backend
+from backend import backend
 
 st.title("Interactive Email Generator App")
 st.text("by Alex Zavalny")
@@ -21,7 +21,7 @@ st.markdown("""
 
 st.markdown("# Generate Email")
 
-backend = ml_backend()
+backend = backend()
 
 with st.form(key="form"):
     prompt = st.text_input("Describe the Kind of Email you want to be written.")
